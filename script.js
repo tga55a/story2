@@ -1,6 +1,6 @@
 let desc = document.getElementById("story");
 let Button1 = document.getElementById("Button1");
-let Button2 = document.getElementById("Button2");
+let Button2 = document.getElementById("Button2") || null;
 
 let canProceed = false;
 
